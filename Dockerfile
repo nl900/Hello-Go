@@ -1,6 +1,6 @@
 FROM golang:1.14.9-alpine AS builder
 RUN mkdir /build
-ADD go.mod go.sum hello.go /build/
+ADD app /build/
 WORKDIR /build
 RUN go build
 
