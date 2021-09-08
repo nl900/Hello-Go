@@ -25,7 +25,8 @@ You can run the app without needing to compile yourself by running the command.
 docker run --rm -p 3000:3000 helloworld
 ```
 </br>
-### To run the code </br>
+
+### Running the code </br>
 
 To run the code use command </br>
 ```shell
