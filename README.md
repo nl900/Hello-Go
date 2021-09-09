@@ -33,7 +33,7 @@ To run the code use command </br>
 go run hello.go
 ```
 </br>
-To compile the code
+To compile the code </br>
 ```shell
 go build
 ```
