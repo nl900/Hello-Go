@@ -13,9 +13,9 @@ http://localhost:3000/api/ping returns a JSON response</br>
 
 ### Multistage Docker Build </br>
 The first stage, golang base image is used to compile the app into a single executable binary. This contains all the tools needed to compile the code which is not necessary to run.  The unnecessary executables also creates a security risk.</br>
-To make a smaller image, on the second stage, copy the compiled binary to an alpine base image. </br>
+To make a smaller image, on the second stage in the Dockerfile, the compiled binary is copied to an alpine base image. </br>
 
-To build the image, download the repository and run </br>
+To build the image using the Dockerfile, download the repository and run </br>
 ```shell
 docker build -t helloworld .
 ```
