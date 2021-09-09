@@ -28,12 +28,12 @@ docker run --rm -p 3000:3000 helloworld
 
 ### Running the code </br>
 
-To run the code use command </br>
+To run the code use command, download this repository and in the app directory run </br>
 ```shell
 go run hello.go
 ```
 </br>
-To compile the code </br>
+To compile the code, </br>
 ```shell
 go build
 ```
