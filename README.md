@@ -37,6 +37,7 @@ To compile the code
 ```shell
 go build
 ```
+
 This creates an executable binary and by default is named after the module. This can then be run by calling the binary with
 ```shell
 ./helloworld
